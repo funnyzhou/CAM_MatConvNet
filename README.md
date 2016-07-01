@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## CAM_MatConvNet
 
 This is a simple implementation of the discriminative localization method in [1]. We also made some changes in order to better fit the Pascal VOC dataset.
@@ -32,6 +31,3 @@ II) We added an additional layer after 3x3x1024 for better and easy visualizatio
 [1] B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba. Learning Deep Features for Discriminative Localization. CVPR'16
 
 [2] MaxiMe Oquab. Is object localization for free? – Weakly-supervised learning with convolutional neural networks. CVPR'15
-=======
-# CAM_MatConvNet
->>>>>>> 635a02ea45a3e4fa7603d5293888d17ff0e2b8a1

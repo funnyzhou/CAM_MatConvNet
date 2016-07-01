@@ -25,6 +25,9 @@ II) We added an additional layer after 3x3x1024 for better and easy visualizatio
 2. Run visualization.m
 
 ### Some Examples
+![ex1](/imgs/ex1.png)
+
+![ex2](/imgs/ex2.png)
 
 [1] B. Zhou, A. Khosla, A. Lapedriza, A. Oliva, and A. Torralba. Learning Deep Features for Discriminative Localization. CVPR'16
 
