@@ -40,7 +40,7 @@ for i = 1:size(ids,2)
     res = vl_simplenn(net, gpuArray(single(img_))) ;
     [~, pred] = sort(squeeze(gather(res(end).x)), 'descend') ;
     index = find(imdb.images.class(ids(i), :)~=-1) ;
-    % we choose res(35).x as the target (you can also try 36 or 37)
+    % 35 36 37
     layer_35 = res(35).x ;
     for j = 1:numel(index)        
         activationMap = squeeze(gather(layer_35(:,:,index(j)))) ;
